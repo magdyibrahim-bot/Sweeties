@@ -48,9 +48,9 @@ public class Main {
                 code = input.nextLine();
                 System.out.println(store.searchOnProduct(code));
             } else if (choice == 3) {
+                
                 //add item to cart
                 Integer addMore = 1;
-
                 float price;
                 while (addMore == 1) {
                     System.out.print("product id : ");
