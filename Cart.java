@@ -41,7 +41,7 @@ public class Cart {
     }
 
 
-
+// view cart items
     public void viewCart(){
         System.out.println("----------The Cart------------");
         for(Cart item :itemDetails) {
