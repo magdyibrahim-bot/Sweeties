@@ -20,11 +20,9 @@ public class Cart {
     public Cart(int id){
         this.cartId = id;
     }
-    public void addItemDetail (Product product, int quantity) {    //Add item to cart
-
-        Scanner input = new Scanner(System.in);
-
-
+    
+    // add items to cart
+    public void addItemDetail (Product product, int quantity) {    
         Product p = new Product();
         itemDetails.add(new Cart(product, quantity));
     }
